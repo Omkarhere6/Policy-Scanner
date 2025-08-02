@@ -1,0 +1,15 @@
+policies:
+  - name: Check Strict-Transport-Security Header
+    type: header
+    field: Strict-Transport-Security
+    required: true
+
+  - name: Check Secure Cookies
+    type: cookie
+    field: Secure
+    required: true
+
+  - name: Check Content-Security-Policy Header
+    type: header
+    field: Content-Security-Policy
+    required: true

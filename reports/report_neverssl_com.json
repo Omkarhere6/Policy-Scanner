@@ -1,0 +1,14 @@
+[
+  {
+    "policy": "Check Strict-Transport-Security Header",
+    "status": "FAIL"
+  },
+  {
+    "policy": "Check Secure Cookies",
+    "status": "PASS"
+  },
+  {
+    "policy": "Check Content-Security-Policy Header",
+    "status": "FAIL"
+  }
+]
